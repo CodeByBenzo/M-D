@@ -19,7 +19,7 @@ app.get("/",(req,res)=>{
         status:200, 
         message:"Server Is UP, Developed by MOHAMED & DOUAA",
         // api: "http://localhost:4001/products"
-        api:"localhost:5000/products"
+        api:"https://m-d-hugu.onrender.com/products"
     })
 })
 

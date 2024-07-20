@@ -10,7 +10,7 @@ const initialState ={
 export const productsFetch = createAsyncThunk(
     "products/productsFetch",
     async() =>{
-        const response = await axios.get('http://localhost:5000/products')
+        const response = await axios.get('https://m-d-hugu.onrender.com/products')
         return response?.data
     }
     //to fetch single product with createAsyncThunk
